@@ -6,13 +6,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 const Header = ({ title }) => (
-  <header class="my-4">
-    <div class="flex flex-row items-center space-x-8">
-      <Link to="/"><h1 class="whitespace-nowrap">{title}</h1></Link>
-      <div class="flex flex-row space-x-4">
-        <Link to="https://twitter.com/tomeldev"><FontAwesomeIcon icon={faTwitter} /></Link>
-        <Link to="https://www.linkedin.com/in/tomelvidge/"><FontAwesomeIcon icon={faLinkedinIn} /></Link>
-        <Link to="https://github.com/tom-elvidge"><FontAwesomeIcon icon={faGithub} /></Link>
+  <header className="my-4">
+    <div className="flex flex-row items-center space-x-8">
+      <Link to="/"><h1 className="whitespace-nowrap">{title}</h1></Link>
+      <div className="flex flex-row space-x-4">
+        <a className="hover:text-black dark:hover:text-white" href="https://twitter.com/tomeldev" aria-label="Twitter"><FontAwesomeIcon icon={faTwitter} /></a>
+        <a className="hover:text-black dark:hover:text-white" href="https://www.linkedin.com/in/tomelvidge/" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+        <a className="hover:text-black dark:hover:text-white" href="https://github.com/tom-elvidge" aria-label="GitHub"><FontAwesomeIcon icon={faGithub} /></a>
       </div>
       {/* <div class="flex flex-col items-end w-full">
         <FontAwesomeIcon icon={faSun} />
