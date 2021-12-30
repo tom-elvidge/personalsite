@@ -14,9 +14,9 @@ const Header = ({ title }) => (
         <Link to="https://www.linkedin.com/in/tomelvidge/"><FontAwesomeIcon icon={faLinkedinIn} /></Link>
         <Link to="https://github.com/tom-elvidge"><FontAwesomeIcon icon={faGithub} /></Link>
       </div>
-      <div class="flex flex-col items-end w-full">
-      <FontAwesomeIcon icon={faSun} />
-      </div>
+      {/* <div class="flex flex-col items-end w-full">
+        <FontAwesomeIcon icon={faSun} />
+      </div> */}
     </div>
   </header>
 )
