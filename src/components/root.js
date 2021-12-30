@@ -18,7 +18,7 @@ const Root = ({ children }) => {
   const title = data.site.siteMetadata?.title || "Title"
 
   return (
-    <div class="flex flex-col items-center h-screen justify-between bg-neutral-100 dark:bg-neutral-900 text-neutral-700 dark:text-neutral-200">
+    <div class="font-body flex flex-col items-center h-screen justify-between bg-neutral-100 dark:bg-neutral-900 text-neutral-700 dark:text-neutral-200">
       {/* Fill width until md, then fix to 768px (size of md) */}
       <div class="w-full md:max-w-[768px] h-full">
         <Header title={title} />

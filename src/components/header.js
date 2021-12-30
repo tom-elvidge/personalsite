@@ -2,7 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSun } from '@fortawesome/free-solid-svg-icons'
+// import { faSun } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 const Header = ({ title }) => (
