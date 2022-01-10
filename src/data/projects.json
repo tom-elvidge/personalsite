@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Racket Reel",
+    "url": "https://www.racketreel.com",
+    "source": "https://www.github.com/racketreel/ios",
+    "description": "iOS and watchOS application to allow point logging in tennis matches and an automatic video cut of the match with a scoreboard overlay.",
+    "technologies": [
+      "Swift",
+      "SwiftUI",
+      "WatchKit",
+      "AVFoundation",
+      "CoreData",
+      "Firebase"
+    ]
+  }
+]

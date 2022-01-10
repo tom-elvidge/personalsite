@@ -1,6 +1,8 @@
 import * as React from "react"
 import Root from "../components/root"
 import SelectButton from "../components/selectbutton"
+import Project from "../components/project"
+import projects from "../data/projects.json"
 
 class IndexPage extends React.Component {
 
@@ -28,6 +30,13 @@ class IndexPage extends React.Component {
             <SelectButton text="PROJECTS" selected={this.state.showProjects} onClick={this.updateShowProjects.bind(this, true)} />
             <SelectButton text="ARTICLES" selected={!this.state.showProjects} onClick={this.updateShowProjects.bind(this, false)} />
           </div>
+          {
+            this.state.showProjects ? (
+              projects.map(project => {
+                return <Project project={project} />
+              })
+            ) : <h1>Articles</h1>
+          }
         </div>
       </Root>
     )
