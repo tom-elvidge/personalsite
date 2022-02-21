@@ -1,7 +1,8 @@
 [
   {
     "name": "Racket Reel",
-    "url": "https://www.racketreel.com",
+    "img": "./images/racketreel.png",
+    "url": "www.racketreel.com",
     "source": "https://www.github.com/racketreel/ios",
     "description": "iOS and watchOS application to allow point logging in tennis matches and an automatic video cut of the match with a scoreboard overlay.",
     "technologies": [
@@ -11,6 +12,34 @@
       "AVFoundation",
       "CoreData",
       "Firebase"
+    ]
+  },
+  {
+    "name": "What's In?",
+    "img": "./images/whatsin.png",
+    "url": "whatsin.tomelvidge.com",
+    "source": "https://www.github.com/tom-elvidge/whatsin",
+    "description": "'What's In?' allows you to quickly find out what ingredients are commonly included in a recipe so you don't have to trawl through recipe websites for ingredient ideas and suggestions.",
+    "technologies": [
+      "React",
+      "Python",
+      "SQL",
+      "AWS Lambda",
+      "Docker"
+    ]
+  },
+  {
+    "name": "Personal Website",
+    "img": "./images/personalsite.png",
+    "url": "www.tomelvidge.com",
+    "source": "https://www.github.com/tom-elvidge/mysite",
+    "description": "This is the website you are looking at right now. It allows me to introduce myself, share my projects, and redirect you other places you can find me on the internet.",
+    "technologies": [
+      "React",
+      "Gatsby",
+      "Tailwind",
+      "GraphQL",
+      "Netlify"
     ]
   }
 ]
