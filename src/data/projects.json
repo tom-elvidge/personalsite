@@ -4,7 +4,7 @@
     "img": "./images/racketreel.png",
     "url": "www.racketreel.com",
     "source": "https://www.github.com/racketreel/ios",
-    "description": "iOS and watchOS application to log of points, serves, and other tennis match events while playing. The match logs are used to generate a cut video of the match with a scoreboard overlay.",
+    "description": "iOS and watchOS application to log points, serves, and other tennis match events while playing. The match logs are used to generate a cut video of the match with a scoreboard overlay.",
     "technologies": [
       "Swift",
       "SwiftUI",
