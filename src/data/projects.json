@@ -4,7 +4,7 @@
     "img": "./images/racketreel.png",
     "url": "www.racketreel.com",
     "source": "https://www.github.com/racketreel/ios",
-    "description": "iOS and watchOS application to allow point logging in tennis matches and an automatic video cut of the match with a scoreboard overlay.",
+    "description": "iOS and watchOS application to log of points, serves, and other tennis match events while playing. The match logs are used to generate a cut video of the match with a scoreboard overlay.",
     "technologies": [
       "Swift",
       "SwiftUI",
@@ -33,7 +33,7 @@
     "img": "./images/personalsite.png",
     "url": "www.tomelvidge.com",
     "source": "https://www.github.com/tom-elvidge/mysite",
-    "description": "This is the website you are looking at right now. It allows me to introduce myself, share my projects, and redirect you other places you can find me on the internet.",
+    "description": "This is the website you are looking at right now. It allows me to introduce myself, share my projects, and redirect to other places you can find me on the internet.",
     "technologies": [
       "React",
       "Gatsby",
