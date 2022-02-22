@@ -3,6 +3,7 @@ import Root from "../components/root"
 import SelectButton from "../components/selectbutton"
 import Project from "../components/project"
 import projects from "../data/projects.json"
+import Seo from "../components/seo"
 
 class IndexPage extends React.Component {
 
@@ -22,6 +23,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Root>
+        <Seo />
         <div className="flex flex-col space-y-8 pb-4">
           <div className="space-y-4">
             <h1 className="text-3xl">Software Engineer and Computer Science graduate</h1>
