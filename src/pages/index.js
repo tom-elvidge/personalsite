@@ -23,7 +23,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Root>
-        <Seo />
+        <Seo title="Home" />
         <div className="flex flex-col space-y-8 pb-4">
           <div className="space-y-4">
             <h1 className="text-3xl">Software Engineer and Computer Science graduate</h1>
