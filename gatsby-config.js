@@ -15,7 +15,7 @@ module.exports = {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://www.tomelvidge.com',
-        sitemap: 'https://www.tomelvidge.com/sitemap.xml',
+        sitemap: 'https://www.tomelvidge.com/sitemap/sitemap-index.xml',
         policy: [{userAgent: '*', allow: '/'}]
       }
     },
