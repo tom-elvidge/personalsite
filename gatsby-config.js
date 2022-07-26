@@ -4,12 +4,21 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://www.tomelvidge.com",
     title: config.title,
-    description: "I am a Software Engineer with a particular interest in backend development, microservices, working with data, and the cloud. I enjoy tennis, rock climbing, and of course, all things technology! ",
+    description: "I am a Software Engineer with a particular interest in Kubernetes, .NET, DevEx and DevOps. I enjoy tennis, rock climbing, and of course, all things technology! ",
     author: "@tomeldev"
   },
   plugins: [
     "gatsby-plugin-postcss",
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sitemap",
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.tomelvidge.com',
+        sitemap: 'https://www.tomelvidge.com/sitemap.xml',
+        policy: [{userAgent: '*', allow: '/'}]
+      }
+    },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
